@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #323534;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: #161414;
+  margin: 50px;
+  box-shadow: 3px 3px 50px rebeccapurple;
+}
+
+.container .left-side {
+  padding: 40px;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+
+.img {
+  border-radius: 50%;
+  height: 250px;
+  margin-bottom: 26px;
+}
+
+.profile-text {
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.profile-text h2 {
+  color: rebeccapurple;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.profile-text h2 span {
+  color: white;
+  text-align: center;
+  font-weight: 150;
+  font-size: 17px;
+}
+
+.contact-info {
+  margin-top: 50px;
+}
+.contact-info h3 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  color: rebeccapurple;
+}
+.contact-info .icon {
+  height: 5px;
+  color: cadetblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-info .icon1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: cadetblue;
+  font-size: 23px;
+  margin-left: 2px;
+}
+
+.contact-info .icon3 {
+  height: 5px;
+  color: cadetblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+
+.contact-info ul li {
+  list-style: none;
+}
+
+.education {
+  margin-top: 40px;
+}
+
+.education h3 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: rebeccapurple;
+}
+
+.education ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.education ul li h4 {
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.languages {
+  margin-top: 40px;
+}
+
+.languages h3 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: rebeccapurple;
+}
+
+.languages ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.languages ul li h4 {
+  font-size: 18px;
+  font-weight: 200;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.right-side {
+  padding: 40px;
+}
+
+.about {
+  margin: 40px;
+}
+
+.profile {
+  margin-bottom: 70px;
+}
+
+.profile h3 {
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  color: rebeccapurple;
+  font-size: 20px;
+}
+
+.experience h3 {
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  color: rebeccapurple;
+  font-size: 20px;
+}
+
+.company-year {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.company-year h5 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.company-year h4 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.skills h3 {
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  color: rebeccapurple;
+  font-size: 20px;
+}
+
+.skills ul li {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
